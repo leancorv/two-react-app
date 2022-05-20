@@ -1,11 +1,12 @@
-import Navbar from "../components/Navbar"
+import Navbar from "../components/navbar/Navbar"
+import Featured from "../components/featured/Featured"
 import "./home.scss"
 
 const home = () => {
   return (
         <div className='home'>
             <Navbar/>
-            <img src="/assets/img/series/glee.jpg" alt="" />
+            <Featured type="pelicula"/>
         </div>
   )
 }
