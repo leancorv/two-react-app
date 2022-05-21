@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { ArrowDropDown, Notifications, Search } from '@mui/icons-material';
 import "./navbar.scss"
  
@@ -16,6 +16,7 @@ const Navbar = () => {
                 <div className="left">
                     <img src="/assets/img/logo/logo-two-final.png" alt="" />
                 <span>Inicio</span>
+                <span>Peliculas</span>
                 <span>Series</span>
                 <span>Novedades</span>
                 <span>Mi lista</span>

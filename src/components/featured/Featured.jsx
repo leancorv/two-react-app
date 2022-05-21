@@ -6,6 +6,7 @@ export default function Featured({type}) {
         <div className="featured">
             {type && (
                 <div className="category">
+                    <img src="/assets/img/logo/t.png" alt="" />
                     <span>{type === "pelicula" ? "Peliculas" : "Series"}</span>
                     <select name="genre" id="genre">
                         <option>Género</option>
@@ -23,6 +24,7 @@ export default function Featured({type}) {
                         <option value="drama">Drama</option>
                         <option value="documental">Documental</option>
                     </select>
+                    <img src="/assets/img/logo/t-complemento.png" alt="" />
                 </div>
             )}
             <img src="/assets/img/series/loki.jpg" alt="" />
