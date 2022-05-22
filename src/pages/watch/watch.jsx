@@ -5,12 +5,9 @@ import "./home.scss"
 
 const home = () => {
   return (
-    <div className='home'>
+    <div className='watch'>
         <Navbar/>
         <Featured type="pelicula"/>
-        <List/>
-        <List/>
-        <List/>
         <List/>
     </div>
   );
